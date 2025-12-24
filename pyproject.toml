@@ -1,0 +1,16 @@
+[project]
+name = "code_review_fix"
+version = "0.1.0"
+description = "This helps to fix the code issues with human in the feedback loop where the issue resolutions are stored with confidence rate"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "ipykernel>=6.31.0",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.31",
+    "langchain-openai>=0.3.35",
+    "langgraph>=0.6.11",
+    "openai>=2.14.0",
+    "psycopg2-binary>=2.9.11",
+    "pypdf>=6.5.0",
+]
