@@ -1,8 +1,13 @@
-psycopg2-binary
-openai
-langchain
-langchain-community
-pypdf
-langchain-openai
-ipykernel
-langgraph
+{
+ "dependencies": [
+  "psycopg2-binary",
+  "openai",
+  "langchain",
+  "langchain-community",
+  "pypdf",
+  "langchain-openai",
+  "ipykernel",
+  "langgraph"
+ ],
+ "confidence_rate": 0.95
+}
